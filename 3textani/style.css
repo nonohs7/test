@@ -14,7 +14,7 @@ section{height: 100vh; width: 100%;
 section .scroll{display: flex;
     position: absolute;
     left: 97px; top: 0;
-    transform-origin: left top; /* //중심이동 */
+    transform-origin: left top; /* //중심이동ㅋ */
     transform: rotate(90deg) translate(0px,0px);
 }
 section .scroll div{background: #fff;
@@ -37,4 +37,4 @@ section .scroll div span{
 @keyframes animate2{
     0%{transform: translateX(0%);}
     100%{transform: translateX(-200%);}
-}
+} 
